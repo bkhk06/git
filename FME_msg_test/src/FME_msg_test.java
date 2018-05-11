@@ -36,7 +36,7 @@ public class FME_msg_test extends Thread {
 		try {
 
 			InputStream is_db = Connection.class.getResourceAsStream("/config/db.properties");// db.properties
-																								// 是一个用户配置文件传用户名密码
+																								
 			Properties prop_db = new Properties();
 			try {
 				prop_db.load(is_db);
